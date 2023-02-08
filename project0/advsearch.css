@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    margin: 5px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.advanced-search {
+    color: #D93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.form-line {
+    display: flex;
+    justify-content: space-between
+}

@@ -12,28 +12,74 @@
                     <a href="index.html">Google Search</a>
                 </ul>
             </nav>
-
-            <label class="advanced-search">Advanced Search</label>
         </header>
+
+        <p class="adv-search">Advanced Search</p>
+        <hr class="line"></hr>
         
         <section>
-
             <form action="https://google.com/search">
-                <div class="form-line">
-                    <div>Find pages with...</div>
-                    <div></div>
-                    <div>To do this in the search box</div>
+
+                <div class="row">
+                    <div class="left">
+                        <p id="left-title">Find pages with...</p>
+                    </div>
+                    <div class="middle">
+                        <div id="div-box"></div>
+                    </div>
+                    <div class="right" id="right-title">
+                        <p><strong>To do this in the search box</strong></p>
+                    </div>
                 </div>
-                <div class="form-line">
-                    <div>all these words:</div>
-                    <input class="search-box" type="text" name="q">
-                    <div>Type the important words: <span>tricolor rat terrier</span></div>
+
+                <div class="row">
+                    <div class="left">
+                        <p>all these words:</p>
+                    </div>
+                    <div class="middle">
+                        <input class="search-box" type="text" name="as_q">
+                    </div>
+                    <div class="right">
+                        <p>Type the important words: <span class="span">tricolor rat terrier</span></p>
+                    </div>
                 </div>
-                <div class="form-line">
-                    <div>this exact word or phrase:</div>
-                    <input class="search-box" type="text" name="q">
-                    <div>Put exact words in quotes: <span>"rat terrier"</span></div>
+
+                <div class="row">
+                    <div class="left">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="middle">
+                        <input class="search-box" type="text" name="as_epq">
+                    </div>
+                    <div class="right">
+                        <p>Put exact words in quotes: <span class="span">"rat terrier"</span></p>
+                    </div>
                 </div>
+
+                <div class="row">
+                    <div class="left">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="middle">
+                        <input class="search-box" type="text" name="as_oq">
+                    </div>
+                    <div class="right">
+                        <p>Type <span class="span">OR</span> between all the words you want: <span class="span">miniature OR standard</span></p>
+                    </div>
+                </div>
+                 
+                <div class="row">
+                    <div class="left">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="middle">
+                        <input class="search-box" type="text" name="as_eq">
+                    </div>
+                    <div class="right">
+                        <p>Put a minus sign just before words you don't want: <span class="span">-rodent, -"Jack Russell"</span></p>
+                    </div>
+                </div>
+
                 <input class="search-button" type="submit" value="Advanced Search">
             </form>
         </section>
